@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>宝马测试</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">login_logout</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://bmw-renewal.test.ftms-weixin.com/static-1/login.html<datalist><option>http://bmw-renewal.test.ftms-weixin.com/static-1/login.html</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=username<datalist><option>name=username</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='test1'])[1]/preceding::input[1]</option><option>//input[@name='username']</option><option>//form[@id='loginInfo']/div/ul/li/input</option><option>//input</option><option>css=input[name="username"]</option></datalist></td><td>test1</td>
+</tr>
+<tr><td>type</td><td>name=pwd<datalist><option>name=pwd</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='test1'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='《BMW工具使用协议》'])[1]/preceding::input[1]</option><option>//input[@name='pwd']</option><option>//form[@id='loginInfo']/div/ul/li[2]/input</option><option>//li[2]/input</option><option>css=input[name="pwd"]</option></datalist></td><td>123qwe</td>
+</tr>
+<tr><td>click</td><td>link=登  录<datalist><option>link=登  录</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='《BMW工具使用协议》'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='BMW续保工具协议和隐私政策'])[1]/preceding::a[1]</option><option>//a[contains(text(),'登&amp;nbsp;&amp;nbsp;录')]</option><option>//form[@id='loginInfo']/div/ul/li[5]/a</option><option>xpath=(//a[contains(@href, 'javascript:;')])[3]</option><option>//li[5]/a</option><option>css=a.btn-login.j-btn</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='跟进看板'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='跟进看板'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='管理看板'])[2]/following::span[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='人员权限'])[1]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='代步车险'])[1]/preceding::span[4]</option><option>//div[@id='slider-main']/div/ul/li[3]/a/span</option><option>//li[3]/a/span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=退出<datalist><option>link=退出</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='测试经销商（壁虎）'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='BMW事故车保险服务管理工具'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='客户管理'])[2]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='客户列表'])[1]/preceding::a[1]</option><option>//a[contains(text(),'退出')]</option><option>//div[@id='slider-main']/div[2]/div/a</option><option>//a[contains(@href, 'javascript:;')]</option><option>//div[2]/div/a</option><option>css=a.user-out</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
